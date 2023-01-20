@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
-|-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Group: 5  |
+|----------------------|
+| Ethan Rigby          |   
+| Labib Afsar Ahmed    |   
+| Mohammed Alshoura    |   
+| Danielle Jourdain    |    
 
 
 **Table of Contents**
@@ -38,7 +38,11 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 
-Text…
+Firsly, the program should be run as intended to familiarize ourselves with the functionality. This will firstly allow us to understand how the program should work. It will also allow us to confirm that the program works as inteded when using valid inputs. We will test logging in with a valid card and PIN. Then we will test depositing and withdrawing valid amounts of money from the accounts. We will also test if a transaction can be cancelled by the user using the cancel button. After becoming familiar with the intended path of the program, we will begin testing the system with invalid inputs.
+
+For the first invalid input, we will try to log in with an invalid PIN and a valid card, followed by an invalid card number. Afterwards, we will log in with one of the valid accounts and attempt to withdraw more money than available from one of the accounts. 
+
+The last test we will perform will be entering an invalid PIN 3 times to lock a card and ensure the user is unable to take the card back.
 
 # Comparison of exploratory and manual functional testing
 
